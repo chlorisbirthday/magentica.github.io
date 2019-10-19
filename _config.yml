@@ -1,3 +1,5 @@
+remote_theme : forestryio/ubuild-jekyll
+
 title: uBuild Design Blocks
 author: Forestry.io
 email: support@forestry.io
@@ -6,7 +8,7 @@ description: >-
   This theme provides a set of page-level components and a pre-configured Forestry Blocks UI
   that will empower content editors to construct their own webpages.
 baseurl: "/ubuild-jekyll" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: https://magentica.github.io"" # your site's origin, e.g. https://forestry.io
 
 # Build settings
 defaults:
@@ -30,7 +32,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-remote_theme : forestryio/ubuild-jekyll
-url                      : "https://magentica.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
