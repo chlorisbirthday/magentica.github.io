@@ -127,12 +127,12 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#70cbce;
+  background-color:#63c9e8;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #8be2e5;
+  background-color: #a8ebff;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
