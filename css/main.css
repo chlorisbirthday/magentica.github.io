@@ -12,11 +12,11 @@
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
-  font-family: 'Product Sans'; font-weight: bold;
+  font-family: 'NanumSquare'; font-weight: bold;
 }
 
 p, .lead {
-	font-family: 'Product Sans';
+	font-family: 'NanumSquare';
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  etter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -127,11 +127,15 @@ a:hover, a:focus {
 }
 
 .btn-primary {
+  font-family:Product Sans;
+  font-weight:bold;
   background-color:#63c9e8;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  font-family:Product Sans;
+  font-weight:bold;
   background-color: #a8ebff;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
@@ -141,11 +145,15 @@ a:hover, a:focus {
 }
 
 .btn-secondary {
+  font-family:Product Sans;
+  font-weight:bold;
   background-color: #ffffff;
   color: #231f20;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+  font-family:Product Sans;
+  font-weight:bold;
   background-color: #ededed;
   color: #231f20;
   -webkit-transition: all 0.35s ease-in-out;
@@ -370,7 +378,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/bethe1stbg.jpg) #002834 no-repeat center center fixed;
+  background: url(../img/bethe1stbg.png) #002834 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -389,8 +397,8 @@ hr.line {
 }
 
 .blue {
-	border-color: #70cbce;
-	color: #70cbce
+	border-color: #63c9e8;
+	color: #63c9e8
 }
 
 .yellow {
@@ -458,7 +466,7 @@ footer {
 
 
 #pricing {
-  background: #70cbce;
+  background: #63c9e8;
 }
 
 .pricing-container {
