@@ -12,11 +12,11 @@
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Product Sans'; font-weight: bold;
 }
 
 p, .lead {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Product Sans';
 }
 
 h1 {
