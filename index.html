@@ -6,6 +6,7 @@
    <title>Magentica Studio</title>
    <meta name="keywords" content="magentica rocket">
    <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
 
    <meta property="og:title" content="">
@@ -14,7 +15,6 @@
    <meta property="og:site_name" content="">
    <meta property="og:description" content="">
 
-   <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150655446-1"></script>
    <script>
    window.dataLayer = window.dataLayer || [];
@@ -23,7 +23,6 @@
    gtag('config', 'UA-150655446-1');
    </script>
 
-   <!-- Styles -->
    <link rel="stylesheet" href="css/font-awesome.min.css">
    <link rel="stylesheet" href="css/animate.css">
    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700'
@@ -34,9 +33,30 @@
    <link rel="stylesheet" href="css/main.css">
 
    <script src="js/modernizr-2.7.1.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
+      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+      <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#eaf7f7",
+            "text": "#5c7291"
+          },
+          "button": {
+            "background": "#63c9e8",
+            "text": "#ffffff"
+          }
+        },
+        "showLink": false,
+        "content": {
+          "message": "모바일에서는 웹사이트가 제대로 표시되지 않을 수 있습니다.",
+          "dismiss": "확인"
+        }
+      });
+      </script>
    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
          <div class="navbar-header">
@@ -55,7 +75,6 @@
                   <li><a href="https://www.youtube.com/channel/UC0V_oaQ3uKCxdu3YPFoNRsw">유튜브</a></li>
                </ul>
             </div>
-         <!--/.navbar-collapse -->
       </div>
    </div>
 
@@ -91,7 +110,6 @@
                            
                         </div>
                      </div>
-                     <!--End Button Row-->
                   </div>
                </div>
 
@@ -126,7 +144,6 @@
          </div>
       </div>
    </section>
-
    <section id="main-info" class="pad-lg">
       <div class="container">
          <br>
@@ -152,8 +169,6 @@
          </div>
       </div>
    </section>
-
-   <!--Pricing-->
    <section id="pricing" class="pad-l">
       <br>
       <br>
@@ -288,10 +303,9 @@
                 <p align = "justify">Chromantic 작곡, Magentica 작사 및 보컬로이드 조교.
               </p></font>
              </div>
-          </div>     
+          </div>  
           <br>
-       </div>
-    <hr>
+          <br>
     </section>
   
 
@@ -368,6 +382,7 @@
                   <br>
             </div>
          </section>
+        
    <!-- Javascript
       ================================================== -->
    <!-- Placed at the end of the document so the pages load faster -->
