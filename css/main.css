@@ -386,6 +386,17 @@ header {
   background-size: cover;
 }
 
+.circle{
+  width:340px;
+  height:340px;
+  border-radius:170px;
+  background:#63c9e8;
+  border: 8pt solid #FFFFFF;
+  text-align:center;  /*가로정렬*/
+  line-height:340px;  /*세로 정렬*/ 
+  }
+  
+
 hr.line {
 	width: 100%;
 	border: 2px solid;
