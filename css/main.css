@@ -11,6 +11,12 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
+
+@FONT-FACE {
+         font-family: 'NanumSqaure';
+         src:url("font/NanumSquareL.ttf");
+            }
+
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
   font-family: 'NanumSquare'; font-weight: bold;
 }
