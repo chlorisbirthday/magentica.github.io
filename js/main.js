@@ -43,6 +43,8 @@ numberCounter.prototype.counter = function() {
 
 new numberCounter("counter1", 253);
 
+
+
   //------------------------------------//
   //Scroll To//
   //------------------------------------//
