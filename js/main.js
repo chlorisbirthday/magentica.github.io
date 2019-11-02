@@ -41,7 +41,7 @@ numberCounter.prototype.counter = function() {
     }
 };
 
-new numberCounter("counter1", 253);
+new numberCounter("counter1", 254);
 
 
 
